@@ -2,5 +2,5 @@
 
 public class Tinko
 {
-    // dobre ne
+    // dobre ne este raz
 }
