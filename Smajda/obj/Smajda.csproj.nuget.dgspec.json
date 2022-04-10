@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/podmepodme/Documents/SourceCodes/Smajda/Smajda.csproj": {}
+    "/Users/podmepodme/Documents/SourceCodes/Letsdance-vs-Smajda/Smajda/Smajda.csproj": {}
   },
   "projects": {
-    "/Users/podmepodme/Documents/SourceCodes/Smajda/Smajda.csproj": {
+    "/Users/podmepodme/Documents/SourceCodes/Letsdance-vs-Smajda/Smajda/Smajda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/podmepodme/Documents/SourceCodes/Smajda/Smajda.csproj",
+        "projectUniqueName": "/Users/podmepodme/Documents/SourceCodes/Letsdance-vs-Smajda/Smajda/Smajda.csproj",
         "projectName": "Smajda",
-        "projectPath": "/Users/podmepodme/Documents/SourceCodes/Smajda/Smajda.csproj",
+        "projectPath": "/Users/podmepodme/Documents/SourceCodes/Letsdance-vs-Smajda/Smajda/Smajda.csproj",
         "packagesPath": "/Users/podmepodme/.nuget/packages/",
-        "outputPath": "/Users/podmepodme/Documents/SourceCodes/Smajda/obj/",
+        "outputPath": "/Users/podmepodme/Documents/SourceCodes/Letsdance-vs-Smajda/Smajda/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/podmepodme/.nuget/NuGet/NuGet.Config"
