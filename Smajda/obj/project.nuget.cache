@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K2cAOu8fsBBHE1Pbn+3IdX6+/0/c+Dvq9PbwAUvp9KhbNaLu4E0rGW3mDUkaTsPUGmLfmejXbNHOz+SrL9rhGQ==",
+  "dgSpecHash": "bUJmHkb6Z45ApruF7yW5pBbGsTKLbmbnpA5pedeRNNKOyuMW3YEwF/Y4ayTxlCXagvclMKLMItep7dYCcw6bHw==",
   "success": true,
   "projectFilePath": "/Users/podmepodme/Documents/SourceCodes/Letsdance-vs-Smajda/Smajda/Smajda.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/podmepodme/.nuget/packages/lepenka/0.0.3-beta/lepenka.0.0.3-beta.nupkg.sha512",
+    "/Users/podmepodme/.nuget/packages/lepenka.generator/0.0.3-beta/lepenka.generator.0.0.3-beta.nupkg.sha512"
+  ],
   "logs": []
 }

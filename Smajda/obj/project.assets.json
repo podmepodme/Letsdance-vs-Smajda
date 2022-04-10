@@ -1,11 +1,52 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Lepenka/0.0.3-beta": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Lepenka.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Lepenka.dll": {}
+        }
+      },
+      "Lepenka.Generator/0.0.3-beta": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Lepenka/0.0.3-beta": {
+      "sha512": "aT8lC+zKcPIlEbNn3ZeJlGTqf3DXk6UqBaLx52uNuPksM2MmilDYqDbMcs2TBdftKHzOwO/7ceJDrkwX/DfZGQ==",
+      "type": "package",
+      "path": "lepenka/0.0.3-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lepenka.0.0.3-beta.nupkg.sha512",
+        "lepenka.nuspec",
+        "lib/net6.0/Lepenka.dll"
+      ]
+    },
+    "Lepenka.Generator/0.0.3-beta": {
+      "sha512": "LU1eLuj8KeeFW90LYS+2My/a5WlGzDHPLYlabdGb8l7HWCxHykJEkaGYLmDREkJRTWiI8bsLe9rs4WCJrCoK3A==",
+      "type": "package",
+      "path": "lepenka.generator/0.0.3-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Generator.dll",
+        "lepenka.generator.0.0.3-beta.nupkg.sha512",
+        "lepenka.generator.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Lepenka >= 0.0.3-beta",
+      "Lepenka.Generator >= 0.0.3-beta"
+    ]
   },
   "packageFolders": {
     "/Users/podmepodme/.nuget/packages/": {}
@@ -43,6 +84,16 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Lepenka": {
+            "target": "Package",
+            "version": "[0.0.3-beta, )"
+          },
+          "Lepenka.Generator": {
+            "target": "Package",
+            "version": "[0.0.3-beta, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
