@@ -1,6 +1,6 @@
 ﻿namespace Smajda;
 
-public class Class1
+public class Tinko
 {
-    //
+    // dobre ne
 }
